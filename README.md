@@ -1,2 +1,2 @@
-# My-protfolio
+# My-portfolio
 This is my first repo

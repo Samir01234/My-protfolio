@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: url('gallary/co.jpg');
+    background-size: cover;
+}
+
+header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 70%;
+     display: flex;
+     align-items: center;
+     padding: 20px 80px ;
+     justify-content: space-between;
+     z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span{
+    color: #7d2ae8;
+}
+
+.wrapper{
+    margin-left:-250px ;
+}
+
+.wrapper a{
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 40px;
+    color: #555;
+    transform: .3s;
+    font-weight: 500;
+    
+}
+
+.wrapper a:hover{
+    color: #7d2ae8;
+}
+
+.btn-talk{
+    color: #fff;
+    text-decoration: none;
+    background: #7d2ae8;
+    border: 2px solid #7d2ae8;
+    border-radius: 8px;
+    padding: 8px 30px;
+    transition: .3s;
+    font-weight: 500;
+    margin-right: -300px;
+
+}
+
+.btn-talk:hover{
+    color: #7d2ae8;
+    background: transparent;
+}
+
+.portfolio{
+
+    text-align: center;
+    margin-top: 10%;
+}
+
+.portfolio h1{
+    font-size: 3em;
+    font-weight: 500;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+.portfolio p{
+    word-spacing: 2px;
+    line-height: 1.8;
+    margin-left: 20px;
+    padding: 50px 80px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #555;
+    margin-right: 20px;
+}
+
+.nav a:hover{
+    background: #7d2ae8;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.nav a.active{
+    background: #7d2ae8;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.nav span{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.image{
+    margin-left: 60px;
+    margin-top: 50px;
+    
+}
+
+.image img{
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+   
+}

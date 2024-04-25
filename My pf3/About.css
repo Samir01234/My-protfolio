@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background: url('gallary/ab.jpg');
+    
+}
+
+header{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 70%;
+     display: flex;
+     align-items: center;
+     padding: 20px 80px ;
+     justify-content: space-between;
+     z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span{
+    color: #7d2ae8;
+}
+
+.wrapper{
+    margin-left:-250px ;
+}
+
+.wrapper a{
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-right: 40px;
+    color: #555;
+    transform: .3s;
+    font-weight: 500;
+    
+}
+
+.wrapper a:hover{
+    color: #7d2ae8;
+}
+
+.btn-talk{
+    color: #fff;
+    text-decoration: none;
+    background: #7d2ae8;
+    border: 2px solid #7d2ae8;
+    border-radius: 8px;
+    padding: 8px 30px;
+    transition: .3s;
+    font-weight: 500;
+    margin-right: -300px;
+
+}
+
+.btn-talk:hover{
+    color: #7d2ae8;
+    background: transparent;
+}
+
+
+.about{
+    margin-left: 12%;
+    margin-top: 18%; 
+}
+
+.about h1{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.about p{
+    word-spacing: 2px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+
+.about a{
+    text-decoration: none;
+    font-size: 1.1em;
+    background: #181cf1;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.about a:hover{
+    background: #7d2ae8;
+}
+
+img{
+    height: 430px;
+    width: 380px;
+    float: right;
+    margin-right: 12%;
+    margin-top: -29%;
+    border-radius: 2px;
+}
